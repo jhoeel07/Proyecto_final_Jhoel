@@ -176,10 +176,55 @@
 
      /* ------------------------------pagina SNEAKERS-----------------------------*/
 
+     .BadBunycontenedor{
+
+        display: grid;
+       grid-template-areas: 
+       "portadaBadBuny"
+       "zapatilasBad";
+
+  
+
+ 
+     }
+
+     .portadaBadBuny{
+
+        grid-area:portadaBadBuny ;
+
+     
+     }
+     .zapatilasBad{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .Azul, .Negro, .Amarillo{
+            border: solid black 5px;
+           
+            transition: all 0.5s ease-in-out;
+            &:hover{
+    
+                border-color: chartreuse;
+                transform: scale(1.1);
+            }
+
+
+        }
+
+
+     }
+    
+
+     
+
+
+
      .seccion_Jordan{
 
         // ---------------------------SE INCLUYE MIXIN------------------------------
        @include estadoFyC( row wrap, space-evenly);
+       align-items: baseline;
         .cajaJordan1{
     
             transition: all 0.5s ease-in-out;
