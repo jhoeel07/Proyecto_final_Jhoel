@@ -68,6 +68,15 @@ body {
     background-size: cover; }
     .main .fondo_colores_trasnision .container {
       padding: 30px; }
+  .main .zapatilasBad {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center; }
+    .main .zapatilasBad .Azul, .main .zapatilasBad .Negro, .main .zapatilasBad .Amarillo {
+      border: solid black 5px;
+      border-radius: 10px; }
   .main .cajaPrincipalmodelosVerano, .main .cajaPrincipalmodelosInvierno {
     display: flex;
     flex-flow: column wrap;
@@ -289,6 +298,7 @@ body {
       justify-content: space-around; }
       .main .zapatilasBad .Azul, .main .zapatilasBad .Negro, .main .zapatilasBad .Amarillo {
         border: solid black 5px;
+        border-radius: 10px;
         transition: all 0.5s ease-in-out; }
         .main .zapatilasBad .Azul:hover, .main .zapatilasBad .Negro:hover, .main .zapatilasBad .Amarillo:hover {
           border-color: chartreuse;
@@ -311,11 +321,15 @@ body {
           border-color: chartreuse;
           transform: scale(1.1); }
     .main .row-yeze-2 img {
+      border: solid black 5px;
+      border-radius: 10px;
       transition: all 0.5s ease-in-out; }
       .main .row-yeze-2 img:hover {
         border-color: chartreuse;
         transform: scale(1.1); }
     .main .row-yeze-3 img {
+      border: solid black 5px;
+      border-radius: 10px;
       /*-------------------- transisiones  ------------------------------*/
       transition: all 0.5s ease-in-out; }
       .main .row-yeze-3 img:hover {

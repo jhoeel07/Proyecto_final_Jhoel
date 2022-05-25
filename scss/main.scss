@@ -125,6 +125,25 @@ body{
         
       
     }
+
+    // ----------PARTE DE BAD BUNYY-----------------------------
+    .zapatilasBad{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .Azul, .Negro, .Amarillo{
+            border: solid black 5px;
+            border-radius: 10px;
+           
+    
+
+
+        }
+
+
+     }
     /*-----------------aca TERMINA la Pagina de Sneakers--------------------*/
 
 

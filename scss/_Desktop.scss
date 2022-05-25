@@ -187,7 +187,7 @@
 
  
      }
-
+        //--------------------------------------------PARTE DE ESPECIALES BAD BUNYY--------------------- 
      .portadaBadBuny{
 
         grid-area:portadaBadBuny ;
@@ -201,6 +201,7 @@
         justify-content: space-around;
         .Azul, .Negro, .Amarillo{
             border: solid black 5px;
+            border-radius: 10px;
            
             transition: all 0.5s ease-in-out;
             &:hover{
@@ -252,6 +253,8 @@
     
     }
     .row-yeze-2 img{
+        border: solid black 5px;
+            border-radius: 10px;
         transition: all 0.5s ease-in-out;
         &:hover{
 
@@ -261,6 +264,8 @@
 
     }
     .row-yeze-3 img{
+        border: solid black 5px;
+            border-radius: 10px;
  /*-------------------- transisiones  ------------------------------*/
         transition: all 0.5s ease-in-out;
 
